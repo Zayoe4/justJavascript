@@ -1,4 +1,6 @@
 /*
+ *	The following are a collection of exercises to practice accessing strings and related properties in javascript.
+ *
  *	Write a function called "computeAverageLengthOfWords".
  *
  *	Given two words, "computeAverageLengthOfWords" returns the average of their lengths.

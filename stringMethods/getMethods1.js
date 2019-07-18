@@ -46,5 +46,40 @@
    // your code here
     var sum = word1.length + word2.length + word3.length;
     return sum;
-    
  }
+
+/*
+ *	Write a function called "getAllLetters".
+ *
+ *	Given a word, "getAllLetters" returns an array containing every character in the word.
+ *
+ *	Notes:
+ *	var output = getAllLetters('Radagast');
+ *	console.log(output); // --> ['R', 'a', 'd', 'a', 'g', 'a', 's', 't']
+ */
+ function getAllLetters(str) {
+   // your code here
+   var tempArr = [];
+   for(var i = 0; i < str.length; i++){
+       tempArr.push(str[i]);
+   }
+   return tempArr;
+ }
+
+/*
+ *	Write a function called "getAllWords".
+ *
+ *	Given a sentence, "getAllWords" returns an array containing every word in the sentence.
+ *
+ *	var output = getAllWords('Radagast the Brown');
+ *	console.log(output); // --> ['Radagast', 'the', 'Brown']
+ */
+ function getAllWords(str) {
+   // your code here
+   var words = str.split(' ');
+   if(str === ''){
+       return [];
+   }
+   return words;
+ }
+
